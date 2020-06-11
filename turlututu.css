@@ -1,0 +1,227 @@
+@font-face
+{
+  font-family: 'Mallanna';
+  src: url('Mallanna-Regular.ttf');
+}
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mallanna';
+}
+html
+{
+  width: 100%;
+  overflow-y: scroll;
+}
+header
+{
+  width: 100%;
+  height: 50px;
+  background-color: #333333;
+}
+.topMenu
+{
+  display: flex;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+li
+{
+  display: inline;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+.login
+{
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+}
+.userLogo
+{
+  float: left;
+  position: relative;
+  top: 8px;
+  right: 5px;
+}
+.topDiv
+{
+  background-color: #1E93CC;
+  padding: 75px;
+}
+.logoPerso
+{
+  float:left;
+}
+.blocTitre
+{
+  position: relative;
+  right: 108px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoTurlututuL
+{
+  display: flex;
+}
+h1
+{
+  color: white;
+  display: flex;
+  margin-top: 10px;
+}
+button
+{
+  font-weight: bold;
+}
+.buttonNow
+{
+  color: white;
+  font-size: x-large;
+  padding: 5px;
+  background-color: #e99002;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: flex;
+  width: 250px;
+  height: 60px;
+  margin-top: 15px;
+}
+h2
+{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.middleDiv
+{
+  background-color: #1E93CC;
+}
+article
+{
+  width: 70%;
+  margin: 15px;
+}
+article > h3
+{
+  color: white;
+  font-size: 150%;
+}
+article > p
+{
+  color: white;
+  line-height: 110%;
+}
+.middleTop
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+}
+.middleBottom
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 3%;
+}
+.grey
+{
+  color: #6f6f6f;
+}
+.bottomDiv
+{
+  width: 100%;
+  background-color: #eeeeee;
+  text-align: center;
+  padding: 20px;
+}
+.logos
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.logoProduct
+{
+  width: 100%;
+  background-color: #eeeeee;
+  padding: 25px;
+}
+.buttonsBottom
+{
+  display: flex;
+  justify-content: center;
+}
+.buttonBlue
+{
+  color: white;
+  font-size: large;
+  margin-left:5px;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  background-color: #165882;
+  border-radius: 5px;
+  border: none;
+  width: 14%;
+  height: 50px;
+}
+.buttonOrange
+{
+  color: white;
+  font-size: large;
+  margin-left: 5px;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  background-color: #E99002;
+  border-radius: 5px;
+  border: none;
+  width: 14%;
+  height: 50px;
+}
+.logoMsg
+{
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+footer
+{
+  width: 100%;
+  height: 50px;
+  background-color: #333333;
+}
+.bottomMenu
+{
+  padding-top: 10px;
+}
+.bottomMenu > li
+{
+  padding-right: 25px;
+  border-right: 1px dotted white;
+}
+.bottomMenu > .noBorder
+{
+  border-right: none;
+}
+.copyright
+{
+  color: white;
+  display: inline-block;
+  position: absolute;
+  right: 25px;
+}
